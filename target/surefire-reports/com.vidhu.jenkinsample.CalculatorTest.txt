@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.vidhu.jenkinsample.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.073 s <<< FAILURE! -- in com.vidhu.jenkinsample.CalculatorTest
+com.vidhu.jenkinsample.CalculatorTest.add -- Time elapsed: 0.032 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.vidhu.jenkinsample.Calculator.add(int, int)" because "this.Calculator" is null
+	at com.vidhu.jenkinsample.CalculatorTest.add(CalculatorTest.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
